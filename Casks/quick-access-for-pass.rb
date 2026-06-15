@@ -7,7 +7,7 @@ cask "quick-access-for-pass" do
   desc "Quick access to Proton Pass secrets with SSH agent proxy"
   homepage "https://github.com/CiTroNaK/Quick-Access-for-Pass"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Quick Access for Pass.app"
 
