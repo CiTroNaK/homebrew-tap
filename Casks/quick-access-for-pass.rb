@@ -11,10 +11,12 @@ cask "quick-access-for-pass" do
 
   app "Quick Access for Pass.app"
 
+  uninstall quit: "codes.petr.quick-access-for-pass"
+
   zap trash: [
+    "~/.local/share/quick-access",
+    "~/.ssh/quick-access-agent.sock",
     "~/Library/Application Support/QuickAccessForPass",
     "~/Library/Preferences/codes.petr.quick-access-for-pass.plist",
-    "~/.ssh/quick-access-agent.sock",
-    "~/.local/share/quick-access",
   ]
 end
