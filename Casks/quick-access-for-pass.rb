@@ -1,6 +1,6 @@
 cask "quick-access-for-pass" do
-  version "0.5.10"
-  sha256 "9aff73d5794af9106dd1b6e2b50f28d15367487b9201c6d923566d434afda0a1"
+  version "0.5.11"
+  sha256 "d13bd72fcead364c059966bc35b93f67b45e5acdceefb149dce37baf8dd1476a"
 
   url "https://github.com/CiTroNaK/Quick-Access-for-Pass/releases/download/v#{version}/Quick.Access.for.Pass-#{version}.zip"
   name "Quick Access for Pass"
